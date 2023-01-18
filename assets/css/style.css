@@ -50,3 +50,20 @@ body{
     width: 100%;
     margin-top: 1rem;
 }
+
+.card6-img{
+    width: 270px;
+    height: 180px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 255, 0.075);
+    margin: 8px auto;
+}
+
+.card6-img i{
+    margin-top: 3rem;
+}
+
+
+footer{
+    background-color: hsla(245, 75%, 52%, 0.815);
+}
