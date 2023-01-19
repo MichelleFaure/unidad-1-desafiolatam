@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    background-color: hsla(245, 75%, 52%, 0.815);
+    background-color:hsla(54, 100%, 50%, 0.815);
 }
 
 .navbar h1{
@@ -65,5 +65,5 @@ body{
 
 
 footer{
-    background-color: hsla(245, 75%, 52%, 0.815);
+    background-color: hsla(54, 100%, 50%, 0.815);
 }
