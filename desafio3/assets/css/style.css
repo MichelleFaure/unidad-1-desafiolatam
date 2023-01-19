@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+
+}
+
+/* ---------HEADER------------ */
+
+header H1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    padding: 0.5em 0 ;
+    letter-spacing: 0.2em;
+}
+
+header img{
+    width: 100%;
+}
+
+/* ---------MAIN------------ */
+
+main div{
+    width: 80%;
+    margin: auto;
+    display: flow-root;
+    margin-top: 2em;
+}
+
+main img{
+    width: 40%;
+    float: right;
+    margin-left: 3em
+}
+
+main p{
+    font-size: 2vh;
+    font-weight: 300;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+/* ---------CARACTERISTICAS------------ */
+
+.caracteristicas{
+    background-color: rgba(30, 26, 19, 1);
+    text-align: center;
+    margin-top: 2em;
+}
+
+.caracteristicas .caracteristicas_titulo{
+    font-weight: 500;
+    font-size: 2em;
+    padding-top: 2em;
+}
+
+.caracteristicas .caracteristicas_item{
+    display: inline-block;
+    width: 200px;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 1.5em 1em ;
+}
+
+.caracteristicas .caracteristicas_item p{
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+/* ---------GALERIA------------ */
+
+.galeria_img{
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.galeria_img img{
+    width: 32%;
+    height: 30vh;
+    margin: 0.2em;
+
+}
+
+/* ---------FOOTER------------ */
+
+footer{
+    background-color:  rgba(30, 26, 19, 1);
+    font-size: 2vh;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
