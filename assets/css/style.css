@@ -5,9 +5,10 @@
 }
 
 body{
-    background-color: hsl(225, 100%, 94%);
+    background-color: hsl(225, 100%, 94%); 
 }
 
+/* NAVBAR */
 .navbar{
     background-color: hsla(245, 75%, 52%, 0.815);
 }
@@ -16,6 +17,83 @@ body{
     font-weight: 700;
 }
 
+
+/* HEADER */
+header{
+    background-image: url(../img/img-header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 50vh;
+}
+
+.header-text{
+    padding-top: 10rem;
+    padding-left: 150px;
+}
+
+/* SOBREMI */
+.sobremi{
+    background-image: url(../img/img-sobremi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid  hsla(245, 100%, 50%, 0.24);
+}
+
+.sobremi-text{
+    padding-top: 10rem;
+    padding-left: 550px;
+    text-align: right;
+}
+
+.sobremi-text p{
+    font-size: 25px;
+}
+
+/* CONTENIDO */
+.contenido{
+    background-image: url(../img/img-contenido.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 35vh;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid  hsla(245, 100%, 50%, 0.24);
+
+}
+
+.contenido-text h2{
+    width: fit-content;
+    padding-right: 25rem;
+}
+
+.contenido-text{
+    padding-top: 3rem;
+    padding-left: 50px;
+}
+.contenido-lista{
+    list-style: none;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+.contenido-lista i{
+    font-size: 40px ;
+    padding-right: 1rem;
+}
+
+/* TITULO UNIDAD1 */
+.titulo{
+    border-top: 1px solid  hsla(245, 100%, 50%, 0.24);
+    padding-top: 5rem;
+}
+
+/* CARDS */
 .card{
     margin: 1rem auto 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -63,7 +141,7 @@ body{
     margin-top: 3rem;
 }
 
-
+/* FOOTER */
 footer{
     background-color: hsla(245, 75%, 52%, 0.815);
 }
