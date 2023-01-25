@@ -36,7 +36,7 @@ header{
 .sobremi{
     background-image: url(../img/img-sobremi.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 500px 500px;
     background-position: left;
     height: 50vh;
     width: 80%;
@@ -46,25 +46,25 @@ header{
 
 .sobremi-text{
     padding-top: 10rem;
-    padding-left: 550px;
     text-align: right;
 }
 
 .sobremi-text p{
     font-size: 25px;
+    width: 60%;
+    margin-left: auto;
 }
 
 /* CONTENIDO */
 .contenido{
     background-image: url(../img/img-contenido.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 500px 500px;
     background-position: right;
-    height: 35vh;
+    height: 50vh;
     width: 80%;
     margin: auto;
     border-top: 1px solid  hsla(245, 100%, 50%, 0.24);
-
 }
 
 .contenido-text h2{
